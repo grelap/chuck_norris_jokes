@@ -7,7 +7,7 @@ button.addEventListener('click', function(){
 });
 
 // ładowanie losowego dowcipu po załadowaniu strony
-document.getElementById('get-joke-onload').onload = function(){
+document.body.onload = function(){
 	getJoke();
 };
 
