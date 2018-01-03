@@ -6,7 +6,7 @@ button.addEventListener('click', function() {
 })
 
 // ładowanie losowego dowcipu po załadowaniu strony
-document.body.onload = function () {
+document.body.onload = function() {
   getJoke()
 }
 
